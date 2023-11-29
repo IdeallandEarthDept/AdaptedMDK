@@ -1,6 +1,8 @@
-package com.deeplake.sandbox.blocks;
+package com.deeplake.sandbox.init;
 
 import com.deeplake.sandbox.ExampleMod;
+import com.deeplake.sandbox.blocks.BlockBase;
+import com.deeplake.sandbox.blocks.BlockLadderCustom;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraftforge.event.RegistryEvent;

@@ -1,7 +1,5 @@
 package com.deeplake.sandbox.init;
 
-import com.deeplake.sandbox.blocks.RegisterBlocks;
-import com.deeplake.sandbox.items.RegisterItem;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;

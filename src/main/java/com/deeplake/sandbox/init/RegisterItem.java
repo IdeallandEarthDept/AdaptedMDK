@@ -1,6 +1,8 @@
-package com.deeplake.sandbox.items;
+package com.deeplake.sandbox.init;
 
 import com.deeplake.sandbox.ExampleMod;
+import com.deeplake.sandbox.items.ItemArmorBase;
+import com.deeplake.sandbox.items.ItemBowBase;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
