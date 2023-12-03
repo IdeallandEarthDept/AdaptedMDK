@@ -1,5 +1,6 @@
 package com.deeplake.sandbox;
 
+import com.deeplake.sandbox.init.ModConfig;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -25,5 +26,18 @@ public class ExampleMod
     public void init(FMLInitializationEvent event)
     {
 
+    }
+
+    public static void LogWarning(String str, Object...args)
+    {
+        logger.warn(String.format(str, args));
+    }
+
+    public static void Log(String str, Object...args)
+    {
+        if (ModConfig.CONFIG.LOG_ON)
+        {
+            logger.info(String.format(str, args));
+        }
     }
 }
